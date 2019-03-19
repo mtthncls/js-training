@@ -15,6 +15,7 @@ function abs(n) {
     return n
   }
   return -n
+}
 //* Begin of tests
 const assert = require('assert')
 
