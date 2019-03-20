@@ -8,13 +8,16 @@
  */
 
 // Your code :
-
+function getFirst(string) {
+  let i = 0
+  return string[i]
+}
 //* Begin of tests
 const assert = require('assert')
 
-assert.strictEqual(getFirst([ 2, 42 ]), 2)
-assert.strictEqual(getFirst([ 'pouet', 4, true ]), 'pouet')
-assert.strictEqual(getFirst([ getFirst ]), getFirst)
+assert.strictEqual(getFirst([2, 42]), 2)
+assert.strictEqual(getFirst(['pouet', 4, true]), 'pouet')
+assert.strictEqual(getFirst([getFirst]), getFirst)
 assert.strictEqual(getFirst('salut'), 's')
 assert.strictEqual(getFirst([]), undefined)
 // End of tests */
