@@ -9,7 +9,27 @@
  */
 
 // Your code :
+function multiply(n, m) {
+  let i = 0
+  let count = 0
+  if (n === 0 || m === 0) {
+    return 0
+  }
+  if (m < 0) {
+    m = -m
 
+    while (i < m) {
+      count += n
+      i++
+    }
+    return -count
+  }
+  while (i < m) {
+    count += n
+    i++
+  }
+  return count
+}
 //* Begin of tests
 const assert = require('assert')
 

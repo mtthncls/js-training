@@ -8,7 +8,15 @@
  */
 
 // Your code :
-
+function sameSign(n, m) {
+  if (n > 0 && m > 0)
+    return true
+  if (n < 0 && m < 0)
+    return true
+  if (n === 0 && m === 0)
+    return true
+  return false
+}
 //* Begin of tests
 const assert = require('assert')
 
