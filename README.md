@@ -1,4 +1,8 @@
 [![Build Status](https://travis-ci.org/mtthncls/js-training.svg?branch=master)](https://travis-ci.org/mtthncls/js-training)
+
+## Purpose
+javascript training exercises for Wild Code School students... and others :)
+
 ## Setup
 First, [**fork**](https://github.com/nan-academy/js-training/fork?fragment=1) this repository.
 ### globals dependencies
@@ -13,8 +17,7 @@ git clone https://github.com/GITHUB_LOGIN/js-training.git
 cd js-training
 
 ```
-## Purpose
-javascript training exercises for Wild Code School students... and others :)
+
 
 ## Testing
 Once you have coded your masterpiece, you can start to test your solutions.
