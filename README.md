@@ -13,6 +13,8 @@ git clone https://github.com/GITHUB_LOGIN/js-training.git
 cd js-training
 
 ```
+## Purpose
+javascript training exercises for Wild Code School students... and others :)
 
 ## Testing
 Once you have coded your masterpiece, you can start to test your solutions.
